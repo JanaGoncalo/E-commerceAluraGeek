@@ -293,7 +293,7 @@
               name="form"
             >
               <label for="nome"
-                >Nome<input type="text" name="nome" id="nome" required
+                >Nome<input type="text" name="nome" id="nome" maxlength="40" required
               /></label>
               <label for="mensagem">
                 <textarea
@@ -301,7 +301,7 @@
                   id="mensagem"
                   class="corpo__contato__container__form__textarea"
                   placeholder="Escreva sua mensagem"
-                  minlength="10"
+                  maxlength="120"
                   required
                 ></textarea>
               </label>
